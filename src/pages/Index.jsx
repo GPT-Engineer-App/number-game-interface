@@ -34,7 +34,7 @@ const Index = () => {
           <Text>Enter your guess:</Text>
           <HStack spacing={2}>
             <Input value={inputValue} onChange={handleInputChange} placeholder="Enter a number between 1 and 100" />
-            <Button colorScheme="red" onClick={checkGuess}>
+            <Button colorScheme="blue" onClick={checkGuess}>
               Guess
             </Button>
           </HStack>
